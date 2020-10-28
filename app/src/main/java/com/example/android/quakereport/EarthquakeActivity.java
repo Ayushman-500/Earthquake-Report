@@ -229,12 +229,17 @@ public class EarthquakeActivity extends AppCompatActivity
         mAdapter.clear();
     }
 
+
+    // These two functions are for the functioning of the settings menu in the app bar.
+
+    // This function helps to show the settings menu in the app bar.
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
+    // This function helps to respond when the settings menu is clicked.
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
