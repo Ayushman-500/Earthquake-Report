@@ -4,7 +4,7 @@ Quake Report App
 This app displays a list of recent earthquakes in the world
 from the U.S. Geological Survey (USGS) organization. I learned to build this app in a Udacity course ([Android Basics Nanodegree by Google: Multiscreen Apps](https://www.udacity.com/course/android-basics-networking--ud843)).
 
-It takes user’s preferences for the magnitude and the sort order (magnitudewise or timewise) and thenfetches the data accordingly from the USGS earthquake API.
+It takes user’s preferences for the magnitude and the sort order (magnitudewise or most recent) and then fetches the data accordingly from the USGS earthquake API.
 Understood and implemented Android concepts such as JSON parsing, HTTP networking, threads and parallelism.
 
 More info on the USGS Earthquake API available at:
